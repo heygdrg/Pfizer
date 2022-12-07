@@ -79,6 +79,7 @@ def spoof():
                     spoof_user(guild_id,user_id)
 
                     print(f'         ╚> {Col.green}Succesfully spoof {user_name} from {guild_name}{Col.reset}')
+                    exit()
                     
                 else:
                     print(f'         ╚> User ban id : {Col.yellow}{user_id}{Col.white} name : {Col.pink}{user_name}{Col.white} corresponding : {Col.red}False{Col.reset}')
